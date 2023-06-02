@@ -1,0 +1,87 @@
+{
+  "uuid": "9f309beae2714456ad040adebdd82449",
+  "historyId": "02 Create project",
+  "fullName": "02 Create project",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DEVELOPER3"
+    },
+    {
+      "name": "feature",
+      "value": "Todoly Page Functionality of project"
+    },
+    {
+      "name": "tag",
+      "value": "Todoly"
+    },
+    {
+      "name": "tag",
+      "value": "CreateProject"
+    }
+  ],
+  "links": [],
+  "name": "02 Create project",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the left section to click the add new project button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685725050786,
+      "stop": 1685725050879
+    },
+    {
+      "name": "When  I enter the new project name \"MojixProject\" and click the add button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685725050879,
+      "stop": 1685725051175
+    },
+    {
+      "name": "Then  The project name \"MojixProject\" should be displayed on the left site section",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685725051175,
+      "stop": 1685725051750
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685725050786,
+  "stop": 1685725051750
+}
