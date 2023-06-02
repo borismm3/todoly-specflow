@@ -1,7 +1,7 @@
 {
-  "uuid": "d44d0c28ae8e4d5c985288d7824a36df",
-  "historyId": "01 Login",
-  "fullName": "01 Login",
+  "uuid": "119fb5e735314761adf010dfdd48f766",
+  "historyId": "03 Update project",
+  "fullName": "03 Update project",
   "labels": [
     {
       "name": "thread",
@@ -21,11 +21,11 @@
     },
     {
       "name": "tag",
-      "value": "Login"
+      "value": "UpdateProject"
     }
   ],
   "links": [],
-  "name": "01 Login",
+  "name": "03 Update project",
   "status": "passed",
   "statusDetails": {
     "known": false,
@@ -35,7 +35,7 @@
   "stage": "finished",
   "steps": [
     {
-      "name": "Given  I am on the Todoly login section",
+      "name": "Given  I am on the left section to click the project name \"MojixProject\"",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -46,11 +46,11 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685719295305,
-      "stop": 1685719295669
+      "start": 1685720196241,
+      "stop": 1685720196343
     },
     {
-      "name": "When  I enter my username \"boris@gmail.com\" and password \"123456\", both valid, and click login",
+      "name": "And  I click on sub menu icon to click the edit button",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -61,11 +61,11 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685719295670,
-      "stop": 1685719298056
+      "start": 1685720196343,
+      "stop": 1685720196493
     },
     {
-      "name": "Then  I should be logged in and see the Todoly logout button",
+      "name": "When  I enter the updated project name \"UpdatedProject\" and click the save button",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -76,12 +76,27 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685719298056,
-      "stop": 1685719298134
+      "start": 1685720196493,
+      "stop": 1685720196737
+    },
+    {
+      "name": "Then  The updated project name \"UpdatedProject\" should be displayed on the left site section",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685720196737,
+      "stop": 1685720197322
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1685719295118,
-  "stop": 1685719298136
+  "start": 1685720196241,
+  "stop": 1685720197323
 }

@@ -1,5 +1,5 @@
 {
-  "uuid": "1c360d1d971645ea9273eb565fabefab",
+  "uuid": "abc1b823d1c74b46aaa8f58c5dd3a50d",
   "historyId": "04 Delete project",
   "fullName": "04 Delete project",
   "labels": [
@@ -46,8 +46,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685719300213,
-      "stop": 1685719300306
+      "start": 1685720197323,
+      "stop": 1685720197409
     },
     {
       "name": "And  I click on sub menu icon to click the delete button",
@@ -61,8 +61,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685719300306,
-      "stop": 1685719300468
+      "start": 1685720197409,
+      "stop": 1685720197583
     },
     {
       "name": "When  I accept the Alert message",
@@ -76,8 +76,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685719300468,
-      "stop": 1685719300475
+      "start": 1685720197584,
+      "stop": 1685720197592
     },
     {
       "name": "Then  The project name \"UpdatedProject\" should no longer be displayed",
@@ -91,12 +91,12 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685719300475,
-      "stop": 1685719306323
+      "start": 1685720197592,
+      "stop": 1685720203421
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1685719300213,
-  "stop": 1685719306323
+  "start": 1685720197323,
+  "stop": 1685720203421
 }

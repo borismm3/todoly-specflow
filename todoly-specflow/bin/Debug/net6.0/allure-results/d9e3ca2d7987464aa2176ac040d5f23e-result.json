@@ -1,5 +1,5 @@
 {
-  "uuid": "ebb173538b194aecb43b931d8d98b3fd",
+  "uuid": "ab46f88672f4438b83424f578ecfe11b",
   "historyId": "02 Create project",
   "fullName": "02 Create project",
   "labels": [
@@ -46,8 +46,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685719298142,
-      "stop": 1685719298246
+      "start": 1685720195245,
+      "stop": 1685720195340
     },
     {
       "name": "When  I enter the new project name \"MojixProject\" and click the add button",
@@ -61,8 +61,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685719298246,
-      "stop": 1685719298508
+      "start": 1685720195340,
+      "stop": 1685720195642
     },
     {
       "name": "Then  The project name \"MojixProject\" should be displayed on the left site section",
@@ -76,12 +76,12 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685719298508,
-      "stop": 1685719299127
+      "start": 1685720195642,
+      "stop": 1685720196216
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1685719298142,
-  "stop": 1685719299127
+  "start": 1685720195245,
+  "stop": 1685720196217
 }

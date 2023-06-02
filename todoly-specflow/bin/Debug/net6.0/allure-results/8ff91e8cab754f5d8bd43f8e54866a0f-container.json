@@ -1,12 +1,11 @@
 {
-  "uuid": "d7f01b46d68b453eaad7f44646d5d9a7",
+  "uuid": "a587e4b691464350be228bd3a1a204b4",
   "children": [
-    "13418dcae66e4decaa9a054d4021682b"
+    "2f9c0ebc6bdd45dc84bb92144d51c071"
   ],
-  "befores": [],
-  "afters": [
+  "befores": [
     {
-      "name": "CloseBrowser [10000]",
+      "name": "OpenBrowser [10000]",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -17,11 +16,12 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685665237296,
-      "stop": 1685665237658
+      "start": 1685720186557,
+      "stop": 1685720192594
     }
   ],
+  "afters": [],
   "links": [],
-  "start": 1685665231244,
-  "stop": 1685665237706
+  "start": 1685720186554,
+  "stop": 1685720203531
 }

@@ -1,7 +1,7 @@
 {
-  "uuid": "df91ce37a4ac42f98f0212ccf18cc6a2",
-  "historyId": "02 Create project",
-  "fullName": "02 Create project",
+  "uuid": "2f9c0ebc6bdd45dc84bb92144d51c071",
+  "historyId": "01 Login",
+  "fullName": "01 Login",
   "labels": [
     {
       "name": "thread",
@@ -21,11 +21,11 @@
     },
     {
       "name": "tag",
-      "value": "CreateProject"
+      "value": "Login"
     }
   ],
   "links": [],
-  "name": "02 Create project",
+  "name": "01 Login",
   "status": "passed",
   "statusDetails": {
     "known": false,
@@ -35,7 +35,7 @@
   "stage": "finished",
   "steps": [
     {
-      "name": "Given  I am on the left section to click the add new project button",
+      "name": "Given  I am on the Todoly login section",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -46,11 +46,11 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685719808219,
-      "stop": 1685719808313
+      "start": 1685720192612,
+      "stop": 1685720192964
     },
     {
-      "name": "When  I enter the new project name \"MojixProject\" and click the add button",
+      "name": "When  I enter my username \"boris@gmail.com\" and password \"123456\", both valid, and click login",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -61,11 +61,11 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685719808313,
-      "stop": 1685719808611
+      "start": 1685720192965,
+      "stop": 1685720195190
     },
     {
-      "name": "Then  The project name \"MojixProject\" should be displayed on the left site section",
+      "name": "Then  I should be logged in and see the Todoly logout button",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -76,12 +76,12 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1685719808611,
-      "stop": 1685719809195
+      "start": 1685720195190,
+      "stop": 1685720195238
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1685719808219,
-  "stop": 1685719809195
+  "start": 1685720192603,
+  "stop": 1685720195240
 }
