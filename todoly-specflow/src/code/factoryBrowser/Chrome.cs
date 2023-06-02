@@ -17,7 +17,7 @@ namespace todoly_specflow.src.code.factoryBrowser
             options.AddArgument("--disable-dev-shm-usage");
 
             string path = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
-            IWebDriver driver = new ChromeDriver(path + "/resources/driver/chromedriver", options);
+            IWebDriver driver = new ChromeDriver(path + "/resources/driver/chromedriver.exe", options);
             
             driver.Manage().Window.Maximize();
 
