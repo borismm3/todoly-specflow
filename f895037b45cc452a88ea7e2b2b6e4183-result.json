@@ -1,0 +1,87 @@
+{
+  "uuid": "8e134ab1e1f24213811d828eeb4e5b7d",
+  "historyId": "02 Create project",
+  "fullName": "02 Create project",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az577-709"
+    },
+    {
+      "name": "feature",
+      "value": "Todoly Page Functionality of project"
+    },
+    {
+      "name": "tag",
+      "value": "Todoly"
+    },
+    {
+      "name": "tag",
+      "value": "CreateProject"
+    }
+  ],
+  "links": [],
+  "name": "02 Create project",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the left section to click the add new project button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685721357116,
+      "stop": 1685721357181
+    },
+    {
+      "name": "When  I enter the new project name \"MojixProject\" and click the add button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685721357181,
+      "stop": 1685721357408
+    },
+    {
+      "name": "Then  The project name \"MojixProject\" should be displayed on the left site section",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685721357409,
+      "stop": 1685721357951
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685721357116,
+  "stop": 1685721357951
+}
