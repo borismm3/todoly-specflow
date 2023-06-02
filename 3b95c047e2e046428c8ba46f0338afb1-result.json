@@ -1,0 +1,89 @@
+{
+  "uuid": "95d0cf6cdd20446faecdddb20ff65870",
+  "historyId": "02 Create project",
+  "fullName": "02 Create project",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az571-889"
+    },
+    {
+      "name": "feature",
+      "value": "Todoly Page Functionality of project"
+    },
+    {
+      "name": "tag",
+      "value": "Todoly"
+    },
+    {
+      "name": "tag",
+      "value": "CreateProject"
+    }
+  ],
+  "links": [],
+  "name": "02 Create project",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 113.0.5672.126 with binary path /usr/bin/google-chrome (SessionNotCreated)",
+    "trace": "System.InvalidOperationException: session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 113.0.5672.126 with binary path /usr/bin/google-chrome (SessionNotCreated)\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)\n   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\n   at OpenQA.Selenium.Chromium.ChromiumDriver..ctor(ChromiumDriverService service, ChromiumOptions options, TimeSpan commandTimeout)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\n   at todoly_specflow.src.code.factoryBrowser.Chrome.Create() in /home/runner/work/todoly-specflow/todoly-specflow/todoly-specflow/src/code/factoryBrowser/Chrome.cs:line 20\n   at todoly_specflow.src.code.session.Session..ctor() in /home/runner/work/todoly-specflow/todoly-specflow/todoly-specflow/src/code/session/Session.cs:line 14\n   at todoly_specflow.src.code.session.Session.<>c.<.cctor>b__10_0() in /home/runner/work/todoly-specflow/todoly-specflow/todoly-specflow/src/code/session/Session.cs:line 9\n   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)\n--- End of stack trace from previous location ---\n   at System.Lazy`1.CreateValue()\n   at System.Lazy`1.get_Value()\n   at todoly_specflow.src.code.session.Session.get_Instance() in /home/runner/work/todoly-specflow/todoly-specflow/todoly-specflow/src/code/session/Session.cs:line 17\n   at todoly_specflow.src.code.control.ControlSelenium.FindControl() in /home/runner/work/todoly-specflow/todoly-specflow/todoly-specflow/src/code/control/ControlSelenium.cs:line 16\n   at todoly_specflow.src.code.control.ControlSelenium.Click() in /home/runner/work/todoly-specflow/todoly-specflow/todoly-specflow/src/code/control/ControlSelenium.cs:line 20\n   at todoly_specflow.src.code.test.testCase.TodolyPageFunctionalityOfProjectStepDefinitions.GivenIAmOnTheLeftSectionToClickTheAddNewProjectButton() in /home/runner/work/todoly-specflow/todoly-specflow/todoly-specflow/src/code/test/testCase/TodolyPageFunctionalityOfProjectStepDefinitions.cs:line 32\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the left section to click the add new project button",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685720463708,
+      "stop": 1685720463712
+    },
+    {
+      "name": "When  I enter the new project name \"MojixProject\" and click the add button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685720463712,
+      "stop": 1685720463712
+    },
+    {
+      "name": "Then  The project name \"MojixProject\" should be displayed on the left site section",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685720463712,
+      "stop": 1685720463712
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685720463708,
+  "stop": 1685720463713
+}

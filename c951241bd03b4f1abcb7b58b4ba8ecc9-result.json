@@ -1,0 +1,104 @@
+{
+  "uuid": "fad13c8263884a69816cfa04636729be",
+  "historyId": "04 Delete project",
+  "fullName": "04 Delete project",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az571-889"
+    },
+    {
+      "name": "feature",
+      "value": "Todoly Page Functionality of project"
+    },
+    {
+      "name": "tag",
+      "value": "Todoly"
+    },
+    {
+      "name": "tag",
+      "value": "DeleteProject"
+    }
+  ],
+  "links": [],
+  "name": "04 Delete project",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 113.0.5672.126 with binary path /usr/bin/google-chrome (SessionNotCreated)",
+    "trace": "System.InvalidOperationException: session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 113.0.5672.126 with binary path /usr/bin/google-chrome (SessionNotCreated)\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)\n   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\n   at OpenQA.Selenium.Chromium.ChromiumDriver..ctor(ChromiumDriverService service, ChromiumOptions options, TimeSpan commandTimeout)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\n   at todoly_specflow.src.code.factoryBrowser.Chrome.Create() in /home/runner/work/todoly-specflow/todoly-specflow/todoly-specflow/src/code/factoryBrowser/Chrome.cs:line 20\n   at todoly_specflow.src.code.session.Session..ctor() in /home/runner/work/todoly-specflow/todoly-specflow/todoly-specflow/src/code/session/Session.cs:line 14\n   at todoly_specflow.src.code.session.Session.<>c.<.cctor>b__10_0() in /home/runner/work/todoly-specflow/todoly-specflow/todoly-specflow/src/code/session/Session.cs:line 9\n   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)\n--- End of stack trace from previous location ---\n   at System.Lazy`1.CreateValue()\n   at System.Lazy`1.get_Value()\n   at todoly_specflow.src.code.session.Session.get_Instance() in /home/runner/work/todoly-specflow/todoly-specflow/todoly-specflow/src/code/session/Session.cs:line 17\n   at todoly_specflow.src.code.test.TestBase.CloseBrowser() in /home/runner/work/todoly-specflow/todoly-specflow/todoly-specflow/src/code/test/TestBase.cs:line 25\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the left section to click the updated project name \"UpdatedProject\"",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685720463718,
+      "stop": 1685720463719
+    },
+    {
+      "name": "And  I click on sub menu icon to click the delete button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685720463720,
+      "stop": 1685720463720
+    },
+    {
+      "name": "When  I accept the Alert message",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685720463720,
+      "stop": 1685720463720
+    },
+    {
+      "name": "Then  The project name \"UpdatedProject\" should no longer be displayed",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685720463720,
+      "stop": 1685720463720
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685720463718,
+  "stop": 1685720463720
+}
