@@ -1,0 +1,27 @@
+{
+  "uuid": "2a277ced0bb34332acf2b21a4bcecc83",
+  "children": [
+    "70989c80b6c6478b8e550f1dc5696639"
+  ],
+  "befores": [],
+  "afters": [
+    {
+      "name": "CloseBrowser [10000]",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685724108722,
+      "stop": 1685724108731
+    }
+  ],
+  "links": [],
+  "start": 1685724108720,
+  "stop": 1685724108801
+}
