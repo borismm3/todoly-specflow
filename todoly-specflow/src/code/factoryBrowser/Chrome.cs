@@ -19,7 +19,7 @@ namespace todoly_specflow.src.code.factoryBrowser
             string path = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
             Console.WriteLine("FIRST PAR OF PATH = " + path);
             Console.WriteLine("SECOND PAR OF PATH = /resources/driver/chromedriver.exe");
-            IWebDriver driver = new ChromeDriver(path + "/resources/driver/chromedriver.exe", options);
+            IWebDriver driver = new ChromeDriver(path + "/resources/driver/", options);
             
             driver.Manage().Window.Maximize();
 
