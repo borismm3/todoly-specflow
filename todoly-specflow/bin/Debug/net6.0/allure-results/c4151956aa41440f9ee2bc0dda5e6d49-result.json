@@ -1,0 +1,102 @@
+{
+  "uuid": "badb8fc33d7c4a53856baa32a4d269e5",
+  "historyId": "03 Update project",
+  "fullName": "03 Update project",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DEVELOPER3"
+    },
+    {
+      "name": "feature",
+      "value": "Todoly Page Functionality of project"
+    },
+    {
+      "name": "tag",
+      "value": "Todoly"
+    },
+    {
+      "name": "tag",
+      "value": "UpdateProject"
+    }
+  ],
+  "links": [],
+  "name": "03 Update project",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the left section to click the project name \"MojixProject\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685720906542,
+      "stop": 1685720906625
+    },
+    {
+      "name": "And  I click on sub menu icon to click the edit button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685720906626,
+      "stop": 1685720906817
+    },
+    {
+      "name": "When  I enter the updated project name \"UpdatedProject\" and click the save button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685720906817,
+      "stop": 1685720907092
+    },
+    {
+      "name": "Then  The updated project name \"UpdatedProject\" should be displayed on the left site section",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685720907092,
+      "stop": 1685720907670
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685720906542,
+  "stop": 1685720907670
+}
