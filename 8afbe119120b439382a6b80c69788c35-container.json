@@ -1,0 +1,27 @@
+{
+  "uuid": "29948258051341fe891fc8e854851426",
+  "children": [
+    "7f8476e9ebcd4704a6cc564c5384b096"
+  ],
+  "befores": [
+    {
+      "name": "OpenBrowser [10000]",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685722064200,
+      "stop": 1685722064339
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1685722064199,
+  "stop": 1685722064573
+}
