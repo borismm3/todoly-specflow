@@ -16,8 +16,9 @@ namespace todoly_specflow.src.code.factoryBrowser
             options.AddArgument("--disable-gpu");
             options.AddArgument("--disable-dev-shm-usage");
 
-            new DriverManager().SetUpDriver(new ChromeConfig());
-            IWebDriver driver = new ChromeDriver(options);
+            string path = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
+            IWebDriver driver = new ChromeDriver(path + "/resources/driver/linux/chromedriver", options);
+            
             driver.Manage().Window.Maximize();
 
             return driver;
