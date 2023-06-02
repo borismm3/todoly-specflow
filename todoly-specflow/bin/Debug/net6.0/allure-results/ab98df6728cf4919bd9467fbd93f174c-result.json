@@ -1,0 +1,102 @@
+{
+  "uuid": "82250abe694245deb074be5f82d4ec4c",
+  "historyId": "04 Delete project",
+  "fullName": "04 Delete project",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DEVELOPER3"
+    },
+    {
+      "name": "feature",
+      "value": "Todoly Page Functionality of project"
+    },
+    {
+      "name": "tag",
+      "value": "Todoly"
+    },
+    {
+      "name": "tag",
+      "value": "DeleteProject"
+    }
+  ],
+  "links": [],
+  "name": "04 Delete project",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the left section to click the updated project name \"UpdatedProject\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685719810277,
+      "stop": 1685719810364
+    },
+    {
+      "name": "And  I click on sub menu icon to click the delete button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685719810364,
+      "stop": 1685719810527
+    },
+    {
+      "name": "When  I accept the Alert message",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685719810527,
+      "stop": 1685719810531
+    },
+    {
+      "name": "Then  The project name \"UpdatedProject\" should no longer be displayed",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685719810531,
+      "stop": 1685719816373
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685719810277,
+  "stop": 1685719816373
+}

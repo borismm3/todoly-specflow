@@ -1,0 +1,87 @@
+{
+  "uuid": "d44d0c28ae8e4d5c985288d7824a36df",
+  "historyId": "01 Login",
+  "fullName": "01 Login",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DEVELOPER3"
+    },
+    {
+      "name": "feature",
+      "value": "Todoly Page Functionality of project"
+    },
+    {
+      "name": "tag",
+      "value": "Todoly"
+    },
+    {
+      "name": "tag",
+      "value": "Login"
+    }
+  ],
+  "links": [],
+  "name": "01 Login",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the Todoly login section",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685719295305,
+      "stop": 1685719295669
+    },
+    {
+      "name": "When  I enter my username \"boris@gmail.com\" and password \"123456\", both valid, and click login",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685719295670,
+      "stop": 1685719298056
+    },
+    {
+      "name": "Then  I should be logged in and see the Todoly logout button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685719298056,
+      "stop": 1685719298134
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685719295118,
+  "stop": 1685719298136
+}
